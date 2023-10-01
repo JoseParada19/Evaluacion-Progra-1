@@ -27,7 +27,6 @@ class Tecnologia:
     def set_marca(self, marca):
         self.marca = marca
 #------------------
-
     def calcular_descuento(self):
         if self.eficiencia in ('A', 'B'):
             return 0.5
@@ -37,3 +36,4 @@ class Tecnologia:
             return 0.1
         else:
             return 0.0
+#-------------------

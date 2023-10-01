@@ -18,6 +18,5 @@ class Consola(Tecnologia):
         return self.__version
     def set_version(self, version):
         self.__version = version
-
 #-----------------
 

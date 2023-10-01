@@ -1,3 +1,5 @@
+#--------------------------------#
+#--------------------------------#
 from Tecnologia import Tecnologia
 from Transporte import Transporte
 from Consola import Consola
@@ -97,7 +99,6 @@ def cotizar_bicicletas(mostrarbici):
         print(f"Tamaño del aro: {bicicleta.get_aro()} pulgadas")
         print(f"Peso en kilos: {bicicleta.get_peso()}")
         print(f"Precio: ${bicicleta.get_precio()}")
-        print(f"Costo de despacho base: ${bicicleta.get_costodespachobase()}")
 #----------------------------------------------------------------------
 
 
@@ -107,7 +108,6 @@ mostrarconsola=[]
 mostrarbici=[]
 mostrarscooter=[]
 #----------------
-
 
 def menu():
     print("Elije una opcion")

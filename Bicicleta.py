@@ -8,9 +8,7 @@ class Bicicleta(Transporte):
         self.__peso = peso
         self.__precio = precio
         self.__marca = marca
-
-
-
+        
 #getter Setter
     def get_aro(self):
         return self.__aro
