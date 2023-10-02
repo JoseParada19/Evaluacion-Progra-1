@@ -88,7 +88,7 @@ def cotizar_scooter(mostrarscooter):
         print(f"Eficiencia: {scooter.eficiencia}")
         print(f"Precio sin descuento: ${scooter.precio:.2f}")
         print(f"Precio con descuento: ${descuentoscooter:.2f}")
-        print(f"Tamaño del aro: {scooter.get_aro()} pulgadas")
+        print(f"Tamaño del aro: {scooter.get_aro()} ")
         print(f"Velocidad máxima: {scooter.get_velocidad()} km/h")
         print(f"Peso en kg: {scooter.get_peso()}")
 #----------------------------------------------------------------------
@@ -96,7 +96,7 @@ def cotizar_bicicletas(mostrarbici):
     print("---------------Bicicleta---------------")
     for bicicleta in mostrarbici:
         print(f"Marca: {bicicleta.get_marca()}")
-        print(f"Tamaño del aro: {bicicleta.get_aro()} pulgadas")
+        print(f"Tamaño del aro: {bicicleta.get_aro()}")
         print(f"Peso en kilos: {bicicleta.get_peso()}")
         print(f"Precio: ${bicicleta.get_precio()}")
 #----------------------------------------------------------------------
